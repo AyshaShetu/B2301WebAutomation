@@ -17,10 +17,10 @@ public class disAppearingElementTest {
 
     /**
      * Problem Statement
-     * I want to go to Heroku app website and verify the add/remove element page to see add element button is
+     * I want to go to Heroku app website and verify disappearing element page to see HOME and PORTFOLIO button is
      * working properly.
-     * I want to click the add element box and verify that delete button is showing
-     * I also want to check clicking delete button is deleting successfully and not showing anymore
+     * I want to click the PORTFOLIO button and verify its navigating to a page which is showing NOT FOUND
+     * I want to click the HOME button and verify its navigating to a page which is showing HOMEPAGE again
      */
     private static final Logger logger = LogManager.getLogger(com.izaanschool.heroku.addRemoveElementTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
