@@ -39,7 +39,7 @@ public class fileUploaderTest {
         String actualHeading = driver.findElement(By.tagName("h3")).getText();
         Assert.assertEquals("File Uploader", actualHeading);
 
-        String filePath = "\"C:\\Users\\ashet\\Pictures\\Ruzainas Wonderland\\67541986_2113817335406836_2795885437518872576_n.jpg\"";
+        String filePath = "C:\\Users\\ashet\\Downloads\\selenium\\B2301WebAutomation\\dallas downtown.jpg";
         WebElement fileInput = driver.findElement(By.id("file-upload"));
         fileInput.sendKeys(filePath);
         driver.findElement(By.id("file-submit")).click();
