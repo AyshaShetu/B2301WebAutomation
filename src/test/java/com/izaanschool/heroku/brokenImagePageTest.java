@@ -78,7 +78,7 @@ public class brokenImagePageTest {
                       //The size() method returns the number of elements that match the specified locator.
                      // In this case, driver.findElements(By.tagName("img")).size() returns the number of img
                      // elements on the page. The >= 3 part checks if there are at least three images on the
-                    // page before tryingto access the third image.
+                    // page before trying to access the third image.
                    // This is necessary to avoid an IndexOutOfBoundsException error if there are fewer than
                   // three images on the page.
                   // The ! operator is used to negate the result of the endsWith() method, so that isImageBroken
