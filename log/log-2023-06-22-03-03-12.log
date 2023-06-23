@@ -1,0 +1,3 @@
+2023-06-22 03:03:12.632 [main] INFO  com.izaanschool.heroku.CheckBoxesPageTest -  Dropdown page opens 
+2023-06-22 03:03:12.686 [main] INFO  com.izaanschool.heroku.CheckBoxesPageTest -  Checked Option 2 Passed 
+2023-06-22 03:03:12.751 [main] INFO  com.izaanschool.heroku.CheckBoxesPageTest -  Option 2 selected showing 

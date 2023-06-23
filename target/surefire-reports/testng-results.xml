@@ -1,17 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="27" started-at="2023-06-15T00:02:29 CDT" finished-at="2023-06-15T00:02:29 CDT">
+  <suite name="Surefire suite" duration-ms="100229" started-at="2023-06-22T19:14:59 CDT" finished-at="2023-06-22T19:16:40 CDT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="27" started-at="2023-06-15T00:02:29 CDT" finished-at="2023-06-15T00:02:29 CDT">
-      <class name="com.izaanschool.AppTest">
-        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="5" started-at="2023-06-15T00:02:29 CDT" finished-at="2023-06-15T00:02:29 CDT">
+    <test name="Surefire test" duration-ms="100229" started-at="2023-06-22T19:14:59 CDT" finished-at="2023-06-22T19:16:40 CDT">
+      <class name="com.izaanschool.heroku.dropDownListTest">
+        <test-method status="PASS" signature="dropDownTest() throws java.lang.InterruptedException" name="dropDownTest" duration-ms="2543" started-at="2023-06-22T19:16:37 CDT" finished-at="2023-06-22T19:16:40 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testApp -->
-      </class> <!-- com.izaanschool.AppTest -->
+        </test-method> <!-- dropDownTest -->
+      </class> <!-- com.izaanschool.heroku.dropDownListTest -->
+      <class name="com.izaanschool.heroku.brokenImagePageTest">
+        <test-method status="PASS" signature="brokenImageTest() throws java.lang.InterruptedException" name="brokenImageTest" duration-ms="17915" started-at="2023-06-22T19:15:10 CDT" finished-at="2023-06-22T19:15:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenImageTest -->
+      </class> <!-- com.izaanschool.heroku.brokenImagePageTest -->
+      <class name="com.izaanschool.heroku.addRemoveElementTest">
+        <test-method status="PASS" signature="addElementTest() throws java.lang.InterruptedException" name="addElementTest" duration-ms="8278" started-at="2023-06-22T19:14:59 CDT" finished-at="2023-06-22T19:15:08 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addElementTest -->
+      </class> <!-- com.izaanschool.heroku.addRemoveElementTest -->
+      <class name="com.izaanschool.heroku.basicAuthTest">
+        <test-method status="FAIL" signature="testBasicAuth() throws java.lang.InterruptedException" name="testBasicAuth" duration-ms="2106" started-at="2023-06-22T19:15:08 CDT" finished-at="2023-06-22T19:15:10 CDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"h3"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUZAINA', ip: '192.168.254.139', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ashet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2375055bbec03a108b1ed22603214f9a
+*** Element info: {Using=tag name, value=h3}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h3"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RUZAINA', ip: '192.168.254.139', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_371'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ashet\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2375055bbec03a108b1ed22603214f9a
+*** Element info: {Using=tag name, value=h3}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:396)
+at org.openqa.selenium.By$ByTagName.findElement(By.java:320)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.izaanschool.heroku.basicAuthTest.testBasicAuth(basicAuthTest.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:74)
+at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65)
+at org.testng.TestRunner$1.run(TestRunner.java:651)
+at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:812)
+at org.testng.TestRunner.privateRunJUnit(TestRunner.java:680)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:198)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicAuth -->
+      </class> <!-- com.izaanschool.heroku.basicAuthTest -->
+      <class name="com.izaanschool.heroku.CheckBoxesPageTest">
+        <test-method status="PASS" signature="checkBoxesTest() throws java.lang.InterruptedException" name="checkBoxesTest" duration-ms="2494" started-at="2023-06-22T19:15:28 CDT" finished-at="2023-06-22T19:15:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxesTest -->
+      </class> <!-- com.izaanschool.heroku.CheckBoxesPageTest -->
+      <class name="com.izaanschool.heroku.contextMenuPageTest">
+        <test-method status="PASS" signature="contextMenuTest() throws java.lang.InterruptedException" name="contextMenuTest" duration-ms="12424" started-at="2023-06-22T19:15:30 CDT" finished-at="2023-06-22T19:15:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenuTest -->
+      </class> <!-- com.izaanschool.heroku.contextMenuPageTest -->
+      <class name="com.izaanschool.heroku.dragAnddropTest">
+        <test-method status="PASS" signature="dragAndDropTest() throws java.lang.InterruptedException" name="dragAndDropTest" duration-ms="54432" started-at="2023-06-22T19:15:43 CDT" finished-at="2023-06-22T19:16:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTest -->
+      </class> <!-- com.izaanschool.heroku.dragAnddropTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

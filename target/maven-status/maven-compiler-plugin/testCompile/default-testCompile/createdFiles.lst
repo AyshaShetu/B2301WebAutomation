@@ -1,2 +1,8 @@
+com\izaanschool\heroku\CheckBoxesPageTest.class
 qcc\GetQccCalenderData.class
-com\izaanschool\AppTest.class
+com\izaanschool\heroku\contextMenuPageTest.class
+com\izaanschool\heroku\brokenImagePageTest.class
+com\izaanschool\heroku\addRemoveElementTest.class
+com\izaanschool\heroku\basicAuthTest.class
+com\izaanschool\heroku\dragAnddropTest.class
+com\izaanschool\heroku\dropDownListTest.class

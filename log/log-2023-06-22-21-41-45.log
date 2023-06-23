@@ -1,0 +1,3 @@
+2023-06-22 21:41:45.205 [main] INFO  com.izaanschool.heroku.addRemoveElementTest -  add removal Page opens 
+2023-06-22 21:41:45.260 [main] INFO  com.izaanschool.heroku.addRemoveElementTest -  delete button shows 
+2023-06-22 21:41:45.340 [main] INFO  com.izaanschool.heroku.addRemoveElementTest -  delete button removed 
