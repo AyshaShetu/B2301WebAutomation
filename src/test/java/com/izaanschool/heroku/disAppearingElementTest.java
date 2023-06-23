@@ -68,8 +68,7 @@ public class disAppearingElementTest {
         // ********* HOME button verifying **************//
 @Test
     public void homeTest() throws InterruptedException {
-//    driver.findElement(By.linkText("Disappearing Elements")).click();
-//    String actualHeading = driver.findElement(By.tagName("h3")).getText();
+    driver.findElement(By.linkText("Disappearing Elements")).click();
 
     driver.findElement(By.linkText("Home")).click();
         String HomeHeading = driver.findElement(By.tagName("h1")).getText();
