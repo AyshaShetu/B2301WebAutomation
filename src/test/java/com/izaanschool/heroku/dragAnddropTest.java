@@ -1,3 +1,12 @@
+// tries : 1) .ClickAndHold(source)
+//                .MoveToElement(target)
+//                .wait()
+//                .Release(destinationLocator)
+//                .Build()
+//                .Perform();
+
+
+
 package com.izaanschool.heroku;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -110,10 +119,10 @@ public class dragAnddropTest {
     public void cleanUp(){
         driver.close();
     }
-    }
+}
 ////////////////////////////////////*******************************/////////////////////////////////////////////////////
 
-                  ////this is test passed but no drag down/////////////
+////this is test passed but no drag down/////////////
 //import org.apache.logging.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
 //import org.junit.After;
