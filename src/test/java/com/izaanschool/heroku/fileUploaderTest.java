@@ -48,9 +48,9 @@ public class fileUploaderTest {
         Thread.sleep (3000);
     }
 
-//    @After
-//    public void cleanUp() {
-//        driver.close();
-//    }
+    @After
+    public void cleanUp() {
+        driver.close();
+    }
 }
 //"C:\Users\ashet\Pictures\Ruzainas Wonderland\67541986_2113817335406836_2795885437518872576_n.jpg"
