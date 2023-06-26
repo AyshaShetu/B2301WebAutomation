@@ -46,6 +46,7 @@ public class fileUploaderTest {
         String uploadedFileName = driver.findElement(By.id("uploaded-files")).getText();
       //  Assert.assertEquals("your_file_name", uploadedFileName);
         Thread.sleep (3000);
+        logger.info("File uploaded successfully");
     }
 
     @After
@@ -53,4 +54,3 @@ public class fileUploaderTest {
         driver.close();
     }
 }
-//"C:\Users\ashet\Pictures\Ruzainas Wonderland\67541986_2113817335406836_2795885437518872576_n.jpg"
