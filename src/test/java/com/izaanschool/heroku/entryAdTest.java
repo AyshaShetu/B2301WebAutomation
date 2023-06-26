@@ -60,8 +60,8 @@ public class entryAdTest {
         String closeKey = driver.findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[3]/p")).getText();
 
 
-//        String modalwindow = driver.findElement(By.tagName("h3")).getText();
-//        Assert.assertEquals(modalwindow,"This is a modal window");
+        String modalwindow = driver.findElement(By.tagName("h3")).getText();
+        Assert.assertEquals(modalwindow,"This is a modal window");
         //Assert.assertEquals(closeKey,"Close");
         //Assert.assertTrue(closeKey.contains("Close"));
         //Assert.assertTrue(closeKey.trim().("Close"));
