@@ -97,7 +97,7 @@ public class JQueryMenuPageTest {
 
     }
     @After
-    public void cleanup () {
+     public void cleanup () {
         driver.close();
     }
 }
