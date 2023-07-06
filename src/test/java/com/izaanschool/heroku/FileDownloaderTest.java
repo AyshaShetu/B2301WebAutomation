@@ -47,7 +47,7 @@ public class FileDownloaderTest {
         driver.findElement(By.linkText("File Download")).click();
         //verify if the page opened properly
         String actualHeading = driver.findElement(By.tagName("h3")).getText();
-        Assert.assertEquals("File Downloader", actualHeading);
+        Assert.assertEquals(actualHeading, "File Downloader");
         logger.info("File Downloader page opened");
 
         //locate file to download
@@ -55,11 +55,11 @@ public class FileDownloaderTest {
         //click to download
         fileDownload.click();
 
-       // Thread.sleep(8000);
+        Thread.sleep(8000);
 
     }
-//    @After
-//    public void cleanup(){
-//        driver.close();
-//    }
+    @After
+    public void cleanup(){
+        driver.close();
+    }
 }
