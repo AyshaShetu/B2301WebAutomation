@@ -7,16 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-
-import static com.beust.jcommander.JCommander.getConsole;
-import static jdk.nashorn.internal.objects.NativeFunction.function;
-import static org.apache.logging.log4j.util.Chars.TAB;
-import static org.openqa.selenium.Keys.*;
 
 
-
-public class javaScriptAlertTest {
+public class JavaScriptAlertTest {
     private static final Logger logger = LogManager.getLogger(formAuthenticationTest.class);
     private static String TAB;
     WebDriver driver;  //instance level variable, everyone can use it
