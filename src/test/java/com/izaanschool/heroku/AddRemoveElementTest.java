@@ -8,11 +8,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import java.util.List;
 
-public class addRemoveElementTest {
+public class AddRemoveElementTest {
 
     /**
      * Problem Statement
@@ -22,7 +20,7 @@ public class addRemoveElementTest {
      * I also want to check clicking delete button is deleting successfully and not showing anymore
      * */
 
-    private static final Logger logger = LogManager.getLogger(com.izaanschool.heroku.addRemoveElementTest.class);
+    private static final Logger logger = LogManager.getLogger(AddRemoveElementTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
     String url = "http://the-internet.herokuapp.com/";
 
