@@ -7,12 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.WebElement;
-import static org.openqa.selenium.By.xpath;
 
 
-public class dynamicControlTest {
+public class DynamicControlTest {
     /**
      * Problem Statement
      * I want to go to Heroku app website and verify disappearing element page to verify heading
@@ -21,7 +18,7 @@ public class dynamicControlTest {
      * I want to click the REMOVE button and verify its removing "a checkbox"  and showing ADD button
      * I want to click the ENABLE button and verify its showing "It's enabled!"  message and DISABLE button
      */
-    private static final Logger logger = LogManager.getLogger(com.izaanschool.heroku.addRemoveElementTest.class);
+    private static final Logger logger = LogManager.getLogger(AddRemoveElementTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
     String url = "http://the-internet.herokuapp.com/";
 
