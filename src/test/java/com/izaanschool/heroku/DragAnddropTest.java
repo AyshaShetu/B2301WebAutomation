@@ -18,12 +18,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
-import java.util.List;
-
-public class dragAnddropTest {
+public class DragAnddropTest {
     /**
      * Problem Statement
      * verify the drag and drop page to see drag and drop
@@ -32,7 +29,7 @@ public class dragAnddropTest {
      * Verify A and B file swapped
      * */
 
-    private static final Logger logger = LogManager.getLogger(com.izaanschool.heroku.dragAnddropTest.class);
+    private static final Logger logger = LogManager.getLogger(DragAnddropTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
     String url = "http://the-internet.herokuapp.com/";
 
