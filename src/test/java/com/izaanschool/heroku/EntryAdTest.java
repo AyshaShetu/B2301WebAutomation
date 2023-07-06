@@ -7,12 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.WebElement;
-import static org.openqa.selenium.By.xpath;
 
 
-public class entryAdTest {
+public class EntryAdTest {
     /**
      * Problem Statement
      * I want to go to Heroku app website and verify entry ad page to verify heading
@@ -20,7 +17,7 @@ public class entryAdTest {
      * working properly.
      * I want to click the click here link and verify its removing its showing a pop up window
      */
-    private static final Logger logger = LogManager.getLogger(com.izaanschool.heroku.entryAdTest.class);
+    private static final Logger logger = LogManager.getLogger(EntryAdTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
     String url = "http://the-internet.herokuapp.com/";
 
@@ -56,17 +53,20 @@ public class entryAdTest {
         Assert.assertEquals("Entry Ad", actualHeading);
 
         // ********* CLICK HERE verifying **************//
-        driver.findElement(By.linkText("click here")).click();
-        String closeKey = driver.findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[3]/p")).getText();
+       driver.findElement(By.linkText("click here")).click();
+       String closeKey = driver.findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[3]/p")).getText();
+        Thread.sleep(5000);
+        logger.info(closeKey);
+
+        String modalwindow = driver.findElement(By.xpath("//*[@id=\"modal\"]/div[2]/div[1]/h3")).getText();
+        Assert.assertEquals("THIS IS A MODAL WINDOW",modalwindow);
+
+        // tried to do  close key assertion, but it did not find out close key. check logger.info(closeKey). line 62
+       // Assert.assertEquals(closeKey,"Close");
+       // Assert.assertTrue(closeKey.contains("Close"));
+       // Assert.assertTrue(closeKey.trim().("Close"));
 
 
-        String modalwindow = driver.findElement(By.tagName("h3")).getText();
-        Assert.assertEquals(modalwindow,"This is a modal window");
-        //Assert.assertEquals(closeKey,"Close");
-        //Assert.assertTrue(closeKey.contains("Close"));
-        //Assert.assertTrue(closeKey.trim().("Close"));
-
-        Thread.sleep(3000);
         logger.info("click here Button clicked : test passed and pop up window showed");
     }
 
