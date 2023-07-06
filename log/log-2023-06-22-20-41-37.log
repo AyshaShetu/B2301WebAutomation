@@ -1,2 +1,2 @@
-2023-06-22 20:41:37.635 [main] INFO  com.izaanschool.heroku.basicAuthTest - Basic Auth
-2023-06-22 20:41:37.637 [main] INFO  com.izaanschool.heroku.basicAuthTest - test passed
+2023-06-22 20:41:37.635 [main] INFO  com.izaanschool.heroku.BasicAuthTest - Basic Auth
+2023-06-22 20:41:37.637 [main] INFO  com.izaanschool.heroku.BasicAuthTest - test passed
