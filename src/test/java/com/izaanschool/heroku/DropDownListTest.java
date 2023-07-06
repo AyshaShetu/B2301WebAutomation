@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class dropDownListTest {
+public class DropDownListTest {
     /**
      * Problem Statement
      * I want to go to Heroku app website and verify the dropdown page dropdown button is
