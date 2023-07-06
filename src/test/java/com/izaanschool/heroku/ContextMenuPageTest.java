@@ -14,11 +14,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import java.time.Instant;
-
 import static org.openqa.selenium.By.xpath;
 
-public class contextMenuPageTest {
+public class ContextMenuPageTest {
     /**
      * Problem Statement
      * I want to go to Heroku app website and verify the Context Menu page is opened
