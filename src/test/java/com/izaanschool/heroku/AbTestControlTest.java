@@ -10,14 +10,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class abTestControlTest {
+public class AbTestControlTest {
     /**
      * Problem Statement
      * I want to go to Heroku app website and verify the A/B Testing page is opening properly.
      * I want to verify the heading of that page
      */
 
-    private static final Logger logger = LogManager.getLogger(com.izaanschool.heroku.addRemoveElementTest.class);
+    private static final Logger logger = LogManager.getLogger(AddRemoveElementTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
     String url = "http://the-internet.herokuapp.com/";
 
