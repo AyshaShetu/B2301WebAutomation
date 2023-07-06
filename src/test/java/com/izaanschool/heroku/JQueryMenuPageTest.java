@@ -71,8 +71,9 @@ public class JQueryMenuPageTest {
     @Test
    public void verifyJQueryUIMenusheading() throws InterruptedException {
         // Verify JQuery UI - Menus with heading
-        WebElement jQueryUIMenusheading = driver.findElement(By.cssSelector("#content > div > h3"));
-        Assert.assertEquals(jQueryUIMenusheading,"JQueryUI - Menu");
+        WebElement jQueryUIMenusheading = driver.findElement(By.tagName("h3"));
+        String expectedHeading= jQueryUIMenusheading.getText();
+        Assert.assertEquals(expectedHeading,"JQueryUI - Menu");
         logger.info("JQueryUI - Menu heading verifying failed");
         Thread.sleep(3000);
     }
@@ -84,6 +85,7 @@ public class JQueryMenuPageTest {
     @Test
     public void testEnable() throws InterruptedException {
         // click "Enabled"
+
         driver.findElement(By.id("ui-id-2")).click();
         // click "Downloads"
         driver.findElement(By.id("ui-id-4")).click();
