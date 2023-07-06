@@ -7,13 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.WebElement;
-import static org.openqa.selenium.By.xpath;
 
 
-
-public class disAppearingElementTest {
+public class DisAppearingElementTest {
 
     /**
      * Problem Statement
@@ -22,7 +18,7 @@ public class disAppearingElementTest {
      * I want to click the PORTFOLIO button and verify its navigating to a page which is showing NOT FOUND
      * I want to click the HOME button and verify its navigating to a page which is showing HOMEPAGE again
      */
-    private static final Logger logger = LogManager.getLogger(com.izaanschool.heroku.addRemoveElementTest.class);
+    private static final Logger logger = LogManager.getLogger(AddRemoveElementTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
     String url = "http://the-internet.herokuapp.com/";
 
