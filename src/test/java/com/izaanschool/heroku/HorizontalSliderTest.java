@@ -61,20 +61,25 @@ public class HorizontalSliderTest {
 
         //set path for 0 to 5
         WebElement source = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/input"));
-        WebElement target = driver.findElement(By.xpath("//*[@id=\"range\"]"));
+        WebElement target = driver.findElement(By.xpath("//*[@id=\"page-footer\"]/div/div/a"));
+        // slider value for assertion after slide
+        WebElement slidervalue = driver.findElement(By.id("range"));
 
-// Horizontal Slide 0 to 5
+        // Horizontal Slide 0 to 5
         Actions builder = new Actions(driver);
         // let sliding start from 0 to 5
         builder.dragAndDrop(source, target).build().perform();
         logger.info("Sliding done to 0 to 5");
 
-        // verify sliding done perfectly from 0 to 5
-        String number0 = source.getText();
-        String number5 = target.getText();
+             //********* After SLIDING ASSERTION FAILED  ******//
+        // verify sliding done perfectly from 0 to 5. *** here i have taken the spot's (0.5,elemental selenium)
+                                                     // xpath so ,whatevere from them i put result will be same.
+       // String number0 = source.getText();
+      String number5 = slidervalue.getText();
 
-//        Assert.assertEquals("0", number0);
-//      Assert.assertEquals("0", number5);
+       Assert.assertEquals("5", number5);
+       logger.info(number5);
+     // Assert.assertEquals("5", number5);
     }
     @After
     public void cleanup(){
