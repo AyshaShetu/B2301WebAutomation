@@ -8,20 +8,18 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class brokenImagePageTest {
+public class BrokenImagePageTest {
     /**
      * Problem Statement
      * I want to go to Heroku app website and verify the Broken Images page is opened
      * verify first image is showing broken
      * */
 
-    private static final Logger logger = LogManager.getLogger(brokenImagePageTest.class);
+    private static final Logger logger = LogManager.getLogger(BrokenImagePageTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
     String url = "http://the-internet.herokuapp.com/";
 
