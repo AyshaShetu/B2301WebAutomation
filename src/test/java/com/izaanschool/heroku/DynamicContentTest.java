@@ -8,17 +8,14 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.WebElement;
-import static org.openqa.selenium.By.xpath;
 
-public class dynamicContentTest {
+public class DynamicContentTest {
     /**
      * Problem Statement
      * I want to go to Heroku app website and verify Dynamic Content page
      * I want to see "click here" button is working properly and showing new content.
      */
-    private static final Logger logger = LogManager.getLogger(com.izaanschool.heroku.addRemoveElementTest.class);
+    private static final Logger logger = LogManager.getLogger(AddRemoveElementTest.class);
     WebDriver driver;  //instance level variable, everyone can use it
     String url = "http://the-internet.herokuapp.com/";
 
